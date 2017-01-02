@@ -106,7 +106,7 @@ var BotCommands = {
         var str = "```json" + pretty + "```";
         return str;
     },
-    
+
     botversion: function(){
         return "botVersion: " + AppConfig.botVersion;
     },
@@ -151,7 +151,7 @@ var BotCommands = {
     },
 
     tooNoisy: function (input, bot) {
-        // if this.room.name 
+        // if this.room.name
         return false;
     },
 
@@ -173,6 +173,11 @@ var BotCommands = {
             str += this.wikiFooter(keyword);
             return (str);
         }
+    },
+
+    bswift: function (input, bot) {
+        var msg = "Bswift is awesome";
+        return msg;
     },
 
     menu: function (input, bot) {
@@ -300,7 +305,7 @@ var BotCommands = {
         return (this.welcome(input, bot) );
     },
 
-    //DEMO how to add a new 
+    //DEMO how to add a new
     bob: function(input, bot) {
         console.log("bob input>", input.params);
         console.log("from>", input.message.model.fromUser);
