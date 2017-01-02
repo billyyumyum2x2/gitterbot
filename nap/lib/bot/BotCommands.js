@@ -176,7 +176,7 @@ var BotCommands = {
     },
 
     bswift: function (input, bot) {
-        var msg = "Bswift is awesome";
+        var msg = "dude she's super dope";
         return msg;
     },
 
