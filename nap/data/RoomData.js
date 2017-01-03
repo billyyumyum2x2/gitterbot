@@ -124,7 +124,7 @@ var BotRoomData = {
     // this is the demobot that ships with the app
     demobot: [{
         title: "demobot",
-        name: "brianamarie-test-bot/Lobby",
+        name: "brianamarie-gitterbot/Lobby",
         icon: "star",
         topics: ["getting started"]
     }],
