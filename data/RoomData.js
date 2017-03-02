@@ -3,28 +3,8 @@
 // This file needs to be edited to comment out
 // rooms you want to join
 
-// TODO - move to lib/ dir?
-
 var AppConfig = require('../config/AppConfig');
 
-// var Bonfires = require('../lib/app/Bonfires');
-
-// from the webapp
-// users enter the rooms with a topic=XXX url
-// we find a matching room here with that topic
-// and redirect them
-
-/*
- * Returns a prefixed room(s) with a common channel name.
- * e.g. <code>prefixChannelName("FreeCodeCamp", ["Help", "Bonfire"]);</code>
- * would output <code>["FreeCodeCamp/Help", "FreeCodeCamp/Bonfire"]</code>
- * and <code>prefixChannelName("FreeCodeCamp", "DataScience"]);</code>
- * would output <code>"FreeCodeCamp/DataScience"</code>
- *
- * @param {string} name Channel name in Gitter
- * @param {string|Array<string>} roomNames List of room names or a single room name
- * @return {string|Array<string>} The prefixed string or array of string
- */
 function prefixChannelName(name, roomNames) {
     if (roomNames instanceof Array) {
         return roomNames.map(function (room) {
@@ -36,6 +16,7 @@ function prefixChannelName(name, roomNames) {
 
 var RoomData;
 
+<<<<<<< HEAD
 // TODO - read this from the JSON file
 var bonfireTopics = [
 
@@ -100,6 +81,8 @@ var camperBotRooms = [
         name: room
     };
 });
+=======
+>>>>>>> githubteacher/master
 
 var BotRoomData = {
 
@@ -108,6 +91,7 @@ var BotRoomData = {
         // change this to be a room your user is already in
         {
             title: "bothelp",
+<<<<<<< HEAD
             name: "brianamarie-test-bot/Lobby",
             icon: "question",
             topics: ["chitchat", "bots", "bot-development", "camperbot"]
@@ -116,6 +100,9 @@ var BotRoomData = {
         {
             title: "bothelp",
             name: "brianamarie-test-bot/Lobby",
+=======
+            name: "YOUR_GITHUB_ID/testing",
+>>>>>>> githubteacher/master
             icon: "question",
             topics: ["chitchat", "bots", "bot-development", "camperbot"]
         }
@@ -123,12 +110,18 @@ var BotRoomData = {
 
     // this is the demobot that ships with the app
     demobot: [{
+<<<<<<< HEAD
         title: "demobot",
         name: "brianamarie-test-bot/Lobby",
+=======
+        title: "githubteacher's GitterBot room",
+        name: "githubteachergitterbot/lobby",
+>>>>>>> githubteacher/master
         icon: "star",
         topics: ["getting started"]
     }],
 
+<<<<<<< HEAD
     // developer bot
     bothelp: [
 
@@ -190,11 +183,15 @@ var BotRoomData = {
     ],
 
     camperbot: camperBotRooms
+=======
+
+>>>>>>> githubteacher/master
 
 };
 
 var botname = null;
 
+<<<<<<< HEAD
 bonfireDashedNames.map(function (bfName) {
     var room = {
         name: "camperbot/" + bfName,
@@ -211,6 +208,8 @@ BotRoomData.camperbot.map(function (room) {
         room.topic = room.title;
     }
 });
+=======
+>>>>>>> githubteacher/master
 
 RoomData = {
     rooms: function (botname) {
@@ -224,4 +223,8 @@ RoomData = {
 
 };
 
+<<<<<<< HEAD
 module.exports = RoomData;
+=======
+module.exports = RoomData;
+>>>>>>> githubteacher/master

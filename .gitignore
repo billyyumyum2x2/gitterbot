@@ -1,3 +1,6 @@
+*.log
 .idea
 .env
 node_modules
+*.env
+!dot-EXAMPLE.env

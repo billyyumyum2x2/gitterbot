@@ -1,10 +1,9 @@
-### NOTE: CamperBot contributions have moved to [FreeCodeCamp/camperbot](https://github.com/freecodecamp/camperbot)
+**This project is a fork from dcscan/gitterbot, with changes made for GitHub Teacher**
 
-## Airtable recommendation
-update: I'm using Airtable to store some data. 
-It's a very cool 'google docs meets DB' service and if you sign up here, I'll get some credit on my account. Thanks!
-https://airtable.com/invite/bV2PbVkk
-
+Things to note: 
+- This currently is set up to work for GitHubTeacher as the bot
+- It works in the gitter.im/demobot/test room
+- The messages that work come from a certain file that idk what it is 
 
 # GitterBot!
 

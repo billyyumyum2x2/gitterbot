@@ -15,10 +15,13 @@ var _ = require('lodash-node');
 // this is easier for people to add content to as they don't have to add to two lists
 var AllRoomMessages = [
     {
-        // regex: /help.*bonfire:?s?[.?]$/i,
-        regex: /.*help.*bonfire:?s?/i,
-        text: " > type `bonfire name` to get some info on that bonfire. And check [HelpBonfires chatroom](https://gitter.im/FreeCodeCamp/HelpBonfires)",
-        not: 'freecodecamp/HelpBonfires'  // optional to skip for this room
+        regex: /satellite/gim,
+        text: " > GitHub Satellite is great, and Training Day is greater!!",
+    },
+  
+    {
+        regex: /githubteacher/gim,
+        text: " > This is running from a GOMIX app!",
     },
 
     {
