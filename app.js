@@ -4,7 +4,7 @@
 // var clc = require("cli-color");
 //process.stdout.write(clc.erase.screen);
 
-require('dotenv').config({path: '.env'});
+// require('dotenv').config({path: '.env'});
 
 console.log("--------------- startup ------------------")
 
