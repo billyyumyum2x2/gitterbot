@@ -19,7 +19,7 @@
   "devDependencies": {
     "mocha": "",
     "nodemon": "~1.0.15",
-    "chai": "",
+    "chai": "*",
     "chai-as-promised": ""
   },
   "scripts": {
