@@ -1,0 +1,27 @@
+# Chatbot
+
+We will be using
+- Gitter.im as a chat service
+- GoMix as a hosting platform
+- Gitterbot fork from freeCodeCamp
+
+## Steps for Getting Started
+- Fork this repository
+- Sign in to GoMix
+- Import this project into GoMix
+- Replace the `.env` contents on GoMix with:
+**talk about what will be in this .env file eventually, change gitter_user_token to be associated with different account that will be the robot**
+
+```sh
+# make a copy of this file and rename it to "dot.env"
+SERVER_ENV=demobot
+GITTER_USER_TOKEN=1ac342045f5a57d99fe537e58da78f6cba94f7db
+FCC_API_KEY=TESTAPIKEY
+
+# get these from oauth later
+GITTER_APP_KEY=63ece8ac0eeed9b17b1cc9867f65d4857ec6e5fc
+GITTER_APP_SECRET=9026e3b3a74357035ee15a9591f31b2de5cfd3a6
+GITTER_APP_REDIRECT_URL=http://localhost:7891/login/callback
+LOG_LEVEL=10
+PORT=7891
+```
